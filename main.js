@@ -12,3 +12,27 @@ projects =[
 
     }
 ]
+
+const printToDom = (toPrint, divId) => {
+    document.getElementById(divId).innerHTML = toPrint
+}
+
+const createProjectCards = (projectsArray) => {
+    let domString = ''
+  for (let i = 0; i < projectsArray.length; i++) {
+      const projectCard = projectsArray[i]
+       domString += `
+      <div class="card">
+          <h2>${projectCard.title}</h2>
+          <h3>${projectCard.description}</h3>
+          <img src=${projectCard.screenshot} alt='Image of ${projectCard.title}' />
+          <h3>${projectCard.technologiesUsed}</h3>
+          <a href=${projectCard.url}></a>
+          <a href=${projectCard.githubUrl}></a>
+      </div>
+      `
+  }
+  printToDom(domString, 'projectsPage')
+}
+
+createProjectCards(projects)
