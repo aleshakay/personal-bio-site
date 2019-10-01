@@ -37,20 +37,24 @@ const myBioSelectors = () => {
     if (bioNav.style.display = 'none') {
         bioNav.style.display = 'block';
         techNav.style.display = 'none';
-        rojNav.style.display == 'none'
+        projNav.style.display ='none';
     }else{
-        bioNav.style.display = 'block';
+        bioNav.style.display = 'none';
+        echNav.style.display = 'none';
+        projNav.style.display = 'none'
     };
 }
 
 const myTechSelectors = () => {
     if (techNav.style.display == 'none') {
         techNav.style.display = 'block';
-        bioNav.style.display == 'none'
-        projNav.style.display == 'none'
+        bioNav.style.display ='none'
+        projNav.style.display = 'none'
 
     }else{
         techNav.style.display = 'block';
+        bioNav.style.display = 'none'
+        projNav.style.display = 'none'
     };
 }
 
@@ -61,7 +65,9 @@ const myProjectSelectors = () => {
         techNav.style.display = 'none';
         bioNav.style.display = 'none';
     }else{
-        projNav.style.display = 'block';
+        projNav.style.display = 'none';
+        techNav.style.display = 'none';
+        bioNav.style.display = 'none';
     };
 }
 
@@ -69,7 +75,8 @@ const myProjectSelectors = () => {
 const NavSelector = () => {
     document.body.addEventListener('click', (e) => {
         if (e.target.id == 'navToBio'){
-            myBioSelectors();
+            myBioSelectors()
+            ;
         }else if (e.target.id == 'navToTechnologies'){
             myTechSelectors();
         }else if (e.target.id == 'navToProjects'){
