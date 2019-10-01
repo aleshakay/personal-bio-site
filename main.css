@@ -31,20 +31,16 @@ p{
     
   }
 #navLinks{
-  text-align: left;
+  text-align: center;
   font-size: 24px;
   font-family: 'Comfortaa', cursive;
+  display: inline;
 }
-
-.footer{
-  display: flex;
-  align-content: center;
- 
-}
-
 
 .emailAddress{
-  justify-content: center;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+
 }
 
   /* #bioPages{
