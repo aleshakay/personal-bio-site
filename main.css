@@ -24,3 +24,30 @@ p{
     border-style: solid;
     border-width: 2px;
   }
+  .title{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Comfortaa', cursive;
+    
+  }
+#navLinks{
+  text-align: left;
+  font-size: 24px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.footer{
+  display: flex;
+  align-content: center;
+ 
+}
+
+
+.emailAddress{
+  justify-content: center;
+}
+
+  /* #bioPages{
+    display: none;
+  }
+ */

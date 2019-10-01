@@ -3,9 +3,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./main.css">
-  <!-- <script src="https://kit.fontawesome.com/5d9186a566.js"></script> -->
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/5d9186a566.js"></script>
 
+  <link rel="stylesheet" href="./main.css">
   <!-- TODO: Insert a title for your page -->
   <title>Alesha Bio Page</title>
 </head>
@@ -14,25 +15,26 @@
   <!-- Navigation -->
   <nav>
     <!-- TODO: Insert some sort of H1-H6 with your name here -->
-    <h2>Alesha K. Reed</h2>
+    <div class="title"><h2>Alesha K. Reed</h2></div>
     <ul id="navLinks">
-      <li><a id="navToBio">Bio</a></li>
-      <li><a id="navToTechnologies">Technologies</a></li>
-      <li><a id="navToProjects">Projects</a></li>
+      <li><personalBioPage" id="navToBio" href="#personalBioPage">Bio</a></li>
+      <li><a id="navToTechnologies" href="#personalTechPage">Technologies</a></li>
+      <li><a id="navToProjects" href="#personalProjectsPage">Projects</a></li>
     </ul>
   </nav>
   <!-- End Navigation -->
 
   <!-- Primary View -->
-  <div class="fullPage" id="bioPage">
+  <div class="fullPage" id="bioPages" a name="personsalBioPage" style="display: none"> 
     <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-    <h2>Technology Background</h2>
+    <h2>Background</h2>
     <p>Bachelorate of Computer Information Systems from Middle Tennessee State University.</p>
     <p>I am currently working at Asurion in Nashville, TN.  I am a Software Engineer for customer facing applications.</p> 
     <p>I am attending Nashville Software School to increase my knowledge of full stack web development. I would like to gain knowledge in both frontend and backend to better understand the code that my team supports. I am also looking to create web applications to better support the applications that are developed and used within Asurion. </p>
   </div>
-  <div class="fullPage" id="technologiesPage">
+  <div class="fullPage" id="technologiesPage" a name="personalTechPage" style="display: none">
     <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+    <h2>Technology</h2>
     <ul id="learnedTechnologies">
         <li>GitHub</li>
         <li>Javascript</li>
@@ -40,15 +42,17 @@
         <li>HTML</li>
     </ul>
   </div>
-  <div class="fullPage" id="projectsPage"></div>
+  <div class="fullPage" id="projectsPage" a name="personalProjectsPage" style="display: none"></div>
   <!-- End Primary View -->
+  <a href ="https://www.linkedin.com/in/alesha-reed-4804a6100/"><i class="fab fa-linkedin-in"</i></a>
 
   <!-- Footer -->
   <footer class="page-footer">
     <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-    <p class='emailAddress'> Email Address : <a href="mailto:aleshak83@gmail.com">aleshak83@gmail.com</a></p>
-    <i class="fab fa-linkedin"></i> <p>LinkedIn : <a href="linkedin.com/in/alesha-reed-4804a6100">Alesha Reed</a></p>
-    
+    <div class="footer">
+        <p class='emailAddress'> Email Address : <a href="mailto:aleshak83@gmail.com">aleshak83@gmail.com</a></p>
+  <!--     <a href ="https://www.linkedin.com/in/alesha-reed-4804a6100/"><i class="fab fa-linkedin-in"</i></a> -->
+    </div>
   </footer>
   <!-- End Footer -->
   <script src="./main.js"></script>
