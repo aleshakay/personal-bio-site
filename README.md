@@ -5,6 +5,7 @@ Use this application is intended to display the projects that have been created 
 
 # Screenshots
 
+![Main View](https://github.com/aleshakay/personal-bio-site/blob/master/screenshots/Screen%20Shot%202019-10-01%20at%2000.57.12.png)
 
 
 # How to Run
