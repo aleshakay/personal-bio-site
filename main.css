@@ -4,6 +4,15 @@ body{
     color:  black;
 }
 
+.emailaddress{
+  text-align: center;
+}
+
+.email{
+  display: inline-block;
+  font-family: 'Comfortaa', cursive;
+}
+
 p{
     display: flex;
     margin: 0%;
@@ -37,13 +46,12 @@ p{
   display: inline;
 }
 
-.emailAddress{
-  font-family: 'Comfortaa', cursive;
-  text-align: center;
-
-}
-
   /* #bioPages{
     display: none;
   }
  */
+
+.backgroundHeading{
+  text-align: center;
+  font: 'Comfortaa', cursive;
+ }
