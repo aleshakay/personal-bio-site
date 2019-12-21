@@ -2,16 +2,19 @@ import 'bootstrap';
 import firebase from 'firebase';
 import '../styles/main.scss';
 import apiKeys from './helpers/apiKeys.json';
-import Selectors from './Components/Home/Home';
+import selectors from './Components/Home/Home';
 import projectSection from './Components/ProjectSection/ProjectSection';
+import technologySection from './Components/TechnologiesSection/TechologiesSection';
+
 
 const init = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
-  Selectors.NavSelector();
-  Selectors.myBioSelectors();
-  Selectors.myProjectSelectors();
-  Selectors.myTechSelectors();
+  selectors.NavSelector();
+  selectors.myBioSelectors();
+  selectors.myProjectSelectors();
+  selectors.myTechSelectors();
   projectSection.projectPage();
+  technologySection.technologyPage();
   //  createProjectCards(projects)
 };
 

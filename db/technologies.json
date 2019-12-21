@@ -1,23 +1,23 @@
 {
-  "techology1": {
+  "technology1": {
     "name": "Javascript"
   },
-  "techology2": {
+  "technology2": {
     "name": "Github"
   },
-  "techology3": {
+  "technology3": {
     "name": "HTML"
   },
-  "techology4": {
+  "technology4": {
     "name": "jQuery"
   },
-  "techology5": {
+  "technology5": {
     "name": "SASS"
   },
-  "techology6": {
+  "technology6": {
     "name": "JSON"
   },
-  "techology7": {
+  "technology7": {
     "name": "Cascading Style Sheet"
   }
 }

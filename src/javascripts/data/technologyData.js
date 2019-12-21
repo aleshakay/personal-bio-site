@@ -3,18 +3,18 @@ import apiKeys from '../helpers/apiKeys.json';
 
 const baseUrl = apiKeys.firebaseKeys.databaseURL;
 
-const getTechology = () => new Promise((resolve, reject) => {
-  axios.get(`${baseUrl}/techologies.json`)
+const getTechnology = () => new Promise((resolve, reject) => {
+  axios.get(`${baseUrl}/technologies.json`)
     .then((response) => {
-      const demtechology = response.data;
-      const techologies = [];
-      Object.keys(demtechology).forEach((fbId) => {
-        demtechology[fbId].id = fbId;
-        techologies.push(demtechology[fbId]);
+      const demtechnology = response.data;
+      const technologies = [];
+      Object.keys(demtechnology).forEach((fbId) => {
+        demtechnology[fbId].id = fbId;
+        technologies.push(demtechnology[fbId]);
       });
-      resolve(techologies);
+      resolve(technologies);
     })
     .catch((error) => reject(error));
 });
 
-export default { getTechology };
+export default { getTechnology };
