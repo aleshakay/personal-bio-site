@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 body{
     background-color: powderblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
@@ -13,9 +15,15 @@ body{
   font-family: 'Comfortaa', cursive;
 }
 
+#bioPages{
+  text-align: center;
+}
+
 p{
     display: flex;
     margin: 0%;
+    text-align: center;
+
 }
 
 .card img{
