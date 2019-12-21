@@ -4,7 +4,7 @@ import apiKeys from '../helpers/apiKeys.json';
 const baseUrl = apiKeys.firebaseKeys.databaseURL;
 
 const getTechology = () => new Promise((resolve, reject) => {
-  axios.get(`${baseUrl}/techologies.json"`)
+  axios.get(`${baseUrl}/techologies.json`)
     .then((response) => {
       const demtechology = response.data;
       const techologies = [];
@@ -12,7 +12,7 @@ const getTechology = () => new Promise((resolve, reject) => {
         demtechology[fbId].id = fbId;
         techologies.push(demtechology[fbId]);
       });
-      resolve(techologies); // Hard code to only return first machine that comes back
+      resolve(techologies);
     })
     .catch((error) => reject(error));
 });

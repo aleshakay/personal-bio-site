@@ -1,10 +1,9 @@
 import 'bootstrap';
 import firebase from 'firebase';
-import ProjectSection from './Components/ProjectSection/ProjectSection';
 import '../styles/main.scss';
 import apiKeys from './helpers/apiKeys.json';
 import Selectors from './Components/Home/Home';
-
+import projectSection from './Components/ProjectSection/ProjectSection';
 
 const init = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
@@ -12,8 +11,7 @@ const init = () => {
   Selectors.myBioSelectors();
   Selectors.myProjectSelectors();
   Selectors.myTechSelectors();
-  Selectors.ProjectSection();
-  ProjectSection.projectPage();
+  projectSection.projectPage();
   //  createProjectCards(projects)
 };
 

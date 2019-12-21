@@ -1,4 +1,4 @@
-import ProjectsSection from '../BioSection/BioSection';
+import ProjectsSection from '../ProjectSection/ProjectSection';
 
 const bioNav = document.getElementById('bioPages');
 const techNav = document.getElementById('technologiesPage');

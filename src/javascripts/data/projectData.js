@@ -3,8 +3,8 @@ import apiKeys from '../helpers/apiKeys.json';
 
 const baseUrl = apiKeys.firebaseKeys.databaseURL;
 
-const getProject = (uid) => new Promise((resolve, reject) => {
-  axios.get(`${baseUrl}/projects.json?orderBy="uid"&equalTo="${uid}"`)
+const getProjects = () => new Promise((resolve, reject) => {
+  axios.get(`${baseUrl}/projects.json`)
     .then((response) => {
       const demprojects = response.data;
       const projects = [];
@@ -12,9 +12,9 @@ const getProject = (uid) => new Promise((resolve, reject) => {
         demprojects[fbId].id = fbId;
         projects.push(demprojects[fbId]);
       });
-      resolve(projects); // Hard code to only return first machine that comes back
+      resolve(projects);
     })
     .catch((error) => reject(error));
 });
 
-export default { getProject };
+export default { getProjects };
