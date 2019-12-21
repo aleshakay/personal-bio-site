@@ -1,0 +1,38 @@
+{
+  "project1": {
+    "title": "Sandwidch Maker",
+    "screenshot": "https://cdn.shopify.com/s/files/1/0533/2089/files/free-stock-photography-pixabay.jpg?v=1512762557",
+    "description": "Sandwidch Creator in Javascript",
+    "technologiesUsed": "HTML, CSS, Vanilla Javascript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-10/js-part-deux",
+    "githubUrl": "https://github.com/aleshakay"
+  },
+  "project2": {
+    "title": "Sandwidch Maker",
+    "screenshot": "https://cdn.shopify.com/s/files/1/0533/2089/files/free-stock-photography-pixabay.jpg?v=1512762557",
+    "description": "Sandwidch Creator in Javascript",
+    "technologiesUsed": "HTML, CSS, Vanilla Javascript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-10/js-part-deux",
+    "githubUrl": "https://github.com/aleshakay"
+  },
+  "project3": {
+    "title": "Sandwidch Maker",
+    "screenshot": "https://cdn.shopify.com/s/files/1/0533/2089/files/free-stock-photography-pixabay.jpg?v=1512762557",
+    "description": "Sandwidch Creator in Javascript",
+    "technologiesUsed": "HTML, CSS, Vanilla Javascript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-10/js-part-deux",
+    "githubUrl": "https://github.com/aleshakay"
+  },
+  "project4": {
+    "title": "Sandwidch Maker",
+    "screenshot": "https://cdn.shopify.com/s/files/1/0533/2089/files/free-stock-photography-pixabay.jpg?v=1512762557",
+    "description": "Sandwidch Creator in Javascript",
+    "technologiesUsed": "HTML, CSS, Vanilla Javascript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-10/js-part-deux",
+    "githubUrl": "https://github.com/aleshakay"
+  }
+}

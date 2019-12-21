@@ -1,12 +1,29 @@
+@import "~bootstrap/scss/bootstrap";
+
 body{
     background-color: powderblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     color:  black;
 }
 
+.emailaddress{
+  text-align: center;
+}
+
+.email{
+  display: inline-block;
+  font-family: 'Comfortaa', cursive;
+}
+
+#bioPages{
+  text-align: center;
+}
+
 p{
     display: flex;
     margin: 0%;
+    text-align: center;
+
 }
 
 .card img{
@@ -37,13 +54,12 @@ p{
   display: inline;
 }
 
-.emailAddress{
-  font-family: 'Comfortaa', cursive;
-  text-align: center;
-
-}
-
   /* #bioPages{
     display: none;
   }
  */
+
+.backgroundHeading{
+  text-align: center;
+  font: 'Comfortaa', cursive;
+ }
