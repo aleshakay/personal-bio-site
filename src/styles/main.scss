@@ -1,9 +1,35 @@
 @import "~bootstrap/scss/bootstrap";
 
-// body {
-//   background-image: "./images/IMG_8689.jpg";
+body{
+  background: url('../asset/homepageimage.jpg');
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+}
+
+// li a:hover {
+//   background-color: #111111;
 // }
 
+// ul {
+//   list-style-type: none;
+//   margin: 0;
+//   padding: 0;
+//   overflow: hidden;
+//   background-color: white;
+// }
+// li a {
+//   display: block;
+//   color: black;
+//   text-align: center;
+//   padding: 16px;
+//   text-decoration: none;
+//   font-size: 24px;
+// }
+
+// li {
+//   float: right;
+//   justify-content: space-around;
+// }
 
 body{
     // background-color: powderblue;
@@ -25,10 +51,12 @@ body{
 }
 
 p{
-    display: flex;
-    margin: 0%;
-    text-align: center;
-
+  // display: flex;
+  margin: 2%;
+  text-align: center;
+  font-size: 24px;
+  border: 2px;
+  color: white;
 }
 
 .card img{
@@ -56,7 +84,8 @@ p{
   text-align: center;
   font-size: 24px;
   font-family: 'Comfortaa', cursive;
-  display: inline;
+  justify-content: space-evenly !important;
+  justify-items: end;
 }
 
   /* #bioPages{
@@ -70,7 +99,7 @@ p{
  }
  .footerLinks{
   display: flex;
-  font-size: 2em;
+  font-size: 24px;
   justify-content: space-evenly;   
 }
 

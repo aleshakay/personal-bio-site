@@ -3,7 +3,7 @@ import './ProjectFormat.scss';
 const createProjectCards = (project) => {
   let domString = '';
   domString += `
-<div class="container-fluid">
+<div class="container-fluid ">
         <div class="row">
             <div class="card">
             <div class "d-flex">
