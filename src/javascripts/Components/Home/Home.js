@@ -1,9 +1,9 @@
 import ProjectsSection from '../ProjectSection/ProjectSection';
+import technologySection from '../TechnologiesSection/TechologiesSection';
 
 const bioNav = document.getElementById('bioPages');
 const techNav = document.getElementById('technologiesPage');
 const projNav = document.getElementById('projectsPage');
-
 
 const myBioSelectors = () => {
   if (bioNav.style.display === 'none') {
@@ -23,7 +23,7 @@ const myTechSelectors = () => {
     bioNav.style.display = 'none';
     projNav.style.display = 'none';
   } else {
-    techNav.style.display = 'block';
+    techNav.style.display = 'none';
     bioNav.style.display = 'none';
     projNav.style.display = 'none';
   }
@@ -50,6 +50,7 @@ const NavSelector = () => {
     }
     if (e.target.id === 'navToTechnologies') {
       myTechSelectors();
+      technologySection.technologyPage();
     }
     if (e.target.id === 'navToProjects') {
       myProjectSelectors();

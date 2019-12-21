@@ -1,38 +1,38 @@
 {
   "project1": {
-    "title": "Sandwidch Maker",
+    "title": "Doggie DayCare",
     "screenshot": "https://cdn.shopify.com/s/files/1/0533/2089/files/free-stock-photography-pixabay.jpg?v=1512762557",
     "description": "Sandwidch Creator in Javascript",
-    "technologiesUsed": "HTML, CSS, Vanilla Javascript, Version Control with Github",
+    "technologiesUsed": "HTML, SASS, React, CRUD, Version Control with Github",
     "available": true,
     "url": "https://github.com/nss-evening-cohort-10/js-part-deux",
-    "githubUrl": "https://github.com/aleshakay"
+    "githubUrl": "https://github.com/aleshakay/doggie-day-care"
   },
   "project2": {
-    "title": "Sandwidch Maker",
+    "title": "The Sandwich Maker",
     "screenshot": "https://cdn.shopify.com/s/files/1/0533/2089/files/free-stock-photography-pixabay.jpg?v=1512762557",
-    "description": "Sandwidch Creator in Javascript",
+    "description": "Use this application to select sandwich toppings and get a final cost for your sandwich creation.",
     "technologiesUsed": "HTML, CSS, Vanilla Javascript, Version Control with Github",
     "available": true,
     "url": "https://github.com/nss-evening-cohort-10/js-part-deux",
-    "githubUrl": "https://github.com/aleshakay"
+    "githubUrl": "https://github.com/aleshakay/sandwich-maker"
   },
   "project3": {
-    "title": "Sandwidch Maker",
+    "title": "The Sorting Hat",
     "screenshot": "https://cdn.shopify.com/s/files/1/0533/2089/files/free-stock-photography-pixabay.jpg?v=1512762557",
-    "description": "Sandwidch Creator in Javascript",
+    "description": "The Sorting Hat has been dividing and sorting students into Hogwart houses.",
     "technologiesUsed": "HTML, CSS, Vanilla Javascript, Version Control with Github",
     "available": true,
     "url": "https://github.com/nss-evening-cohort-10/js-part-deux",
-    "githubUrl": "https://github.com/aleshakay"
+    "githubUrl": "https://github.com/aleshakay/sortingHat"
   },
   "project4": {
-    "title": "Sandwidch Maker",
+    "title": "Shark Attack",
     "screenshot": "https://cdn.shopify.com/s/files/1/0533/2089/files/free-stock-photography-pixabay.jpg?v=1512762557",
     "description": "Sandwidch Creator in Javascript",
-    "technologiesUsed": "HTML, CSS, Vanilla Javascript, Version Control with Github",
+    "technologiesUsed": "HTML, SASS, React, CRUD, Version Control with Github",
     "available": true,
     "url": "https://github.com/nss-evening-cohort-10/js-part-deux",
-    "githubUrl": "https://github.com/aleshakay"
+    "githubUrl": "https://github.com/aleshakay/shark-attack"
   }
 }
