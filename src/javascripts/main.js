@@ -7,9 +7,6 @@ import selectors from './Components/Home/Home';
 const init = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
   selectors.NavSelector();
-  selectors.myBioSelectors();
-  selectors.myProjectSelectors();
-  selectors.myTechSelectors();
 };
 
 init();

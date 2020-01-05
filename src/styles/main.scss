@@ -1,10 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
 
-body{
-  background: url('../asset/homepageimage.jpg');
-  background-size: 100% 80%;
-  background-repeat: no-repeat;
-}
 
 // li a:hover {
 //   background-color: #111111;
@@ -33,21 +28,30 @@ body{
 
 body{
     // background-color: powderblue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    color:  black;
+    font-family: monospace; 
+}
+#homePage{
+  background-color: grey;
 }
 
 .emailaddress{
   text-align: center;
-}
-
-.email{
-  display: inline-block;
-  font-family: 'Comfortaa', cursive;
+  font-family: monospace;
+  font-size: 24px;
 }
 
 #bioPages{
   text-align: center;
+  background-color: grey;
+}
+
+#technologiesPage{
+  text-align: center;
+  background-color: grey;
+}
+
+#projectsPage{
+  background: url(../asset/glitters.jpg);
 }
 
 p{
@@ -56,7 +60,8 @@ p{
   text-align: center;
   font-size: 24px;
   border: 2px;
-  color: white;
+  // color: white;
+  font-family: monospace;
 }
 
 .card img{
@@ -77,15 +82,30 @@ p{
   .title{
     text-align: center;
     font-size: 36px;
-    font-family: 'Comfortaa', cursive;
+    font-family: monospace;
     
   }
 #navLinks{
   text-align: center;
-  font-size: 24px;
-  font-family: 'Comfortaa', cursive;
+  height: 5em;
+  font-size: 32px;
+  font-family: monospace;
   justify-content: space-evenly !important;
   justify-items: end;
+  background: url('../asset/glitters.jpg');
+  align-content: center;
+  font-weight: bolder;
+  a{
+    color: #734f96 !important;
+  }
+}
+.titleMeSpecial h1{
+  text-align: center;
+  height: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #FAD0C9FF;
+  color: white !important;
 }
 
   /* #bioPages{
@@ -95,7 +115,6 @@ p{
 
 .backgroundHeading{
   text-align: center;
-  font: 'Comfortaa', cursive;
  }
  .footerLinks{
   display: flex;
@@ -103,10 +122,11 @@ p{
   justify-content: space-evenly;   
 }
 
-
-#bioPage p {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-  width: 90%;
+.email{
+  display: inline-block;
+  text-align: center;
+  font-family: monospace;
+  font-size: 24px;
+  color: #000;
 }
+

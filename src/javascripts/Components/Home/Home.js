@@ -1,17 +1,39 @@
 import ProjectsSection from '../ProjectSection/ProjectSection';
 import technologySection from '../TechnologiesSection/TechologiesSection';
+import homeSection from '../HomeScreen/HomeScreen';
+import bioSection from '../BioSection/BioSection';
 
-const bioNav = document.getElementById('bioPages');
+const homeNav = document.getElementById('homePage');
+const bioNav = document.getElementById('bioPage');
 const techNav = document.getElementById('technologiesPage');
 const projNav = document.getElementById('projectsPage');
+
+
+const myHomeSelectors = () => {
+  if (homeNav.style.display === 'none') {
+    homeNav.style.display = 'block';
+    bioNav.style.display = 'none';
+    techNav.style.display = 'none';
+    projNav.style.display = 'none';
+    homeSection.homePage();
+  } else {
+    homeNav.style.display = 'none';
+    bioNav.style.display = 'none';
+    techNav.style.display = 'none';
+    projNav.style.display = 'none';
+  }
+};
 
 const myBioSelectors = () => {
   if (bioNav.style.display === 'none') {
     bioNav.style.display = 'block';
+    homeNav.style.display = 'none';
     techNav.style.display = 'none';
     projNav.style.display = 'none';
+    bioSection.createBioCard();
   } else {
     bioNav.style.display = 'none';
+    homeNav.style.display = 'none';
     techNav.style.display = 'none';
     projNav.style.display = 'none';
   }
@@ -20,10 +42,13 @@ const myBioSelectors = () => {
 const myTechSelectors = () => {
   if (techNav.style.display === 'none') {
     techNav.style.display = 'block';
+    homeNav.style.display = 'none';
     bioNav.style.display = 'none';
     projNav.style.display = 'none';
+    technologySection.technologyPage();
   } else {
     techNav.style.display = 'none';
+    homeNav.style.display = 'none';
     bioNav.style.display = 'none';
     projNav.style.display = 'none';
   }
@@ -32,11 +57,13 @@ const myTechSelectors = () => {
 const myProjectSelectors = () => {
   if (projNav.style.display === 'none') {
     projNav.style.display = 'block';
-    // createProjectCards(projects);
+    homeNav.style.display = 'none';
     techNav.style.display = 'none';
     bioNav.style.display = 'none';
+    ProjectsSection.projectPage();
   } else {
     projNav.style.display = 'none';
+    homeNav.style.display = 'none';
     techNav.style.display = 'none';
     bioNav.style.display = 'none';
   }
@@ -45,23 +72,23 @@ const myProjectSelectors = () => {
 
 const NavSelector = () => {
   document.body.addEventListener('click', (e) => {
-    if (e.target.id === 'personalBioPage') {
+    const link = e.target.id;
+    if (link === 'personalBioPage') {
       myBioSelectors();
     }
-    if (e.target.id === 'navToTechnologies') {
-      myTechSelectors();
-      technologySection.technologyPage();
+    if (link === 'personalHomePage') {
+      myHomeSelectors();
+      homeSection.homePage();
     }
-    if (e.target.id === 'navToProjects') {
+    if (link === 'navToTechnologies') {
+      myTechSelectors();
+    }
+    if (link === 'navToProjects') {
       myProjectSelectors();
-      ProjectsSection.projectPage();
     }
   });
 };
 
 export default {
-  myBioSelectors,
-  myTechSelectors,
-  myProjectSelectors,
   NavSelector,
 };

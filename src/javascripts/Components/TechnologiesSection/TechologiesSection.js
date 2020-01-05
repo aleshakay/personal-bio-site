@@ -2,6 +2,8 @@ import utilities from '../../helpers/utilities';
 import technologyData from '../../data/technologyData';
 import technologyFormat from '../TechnologyFormat/TechnologyFormat';
 
+import './TechnologiesSection.scss';
+
 const technologyPage = () => {
   technologyData.getTechnology()
     .then((technologies) => {

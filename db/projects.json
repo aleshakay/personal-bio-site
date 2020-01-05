@@ -1,12 +1,12 @@
 {
   "project1": {
-    "title": "Doggie DayCare",
+    "title": "Sore Throat Band",
     "screenshot": "https://cdn.shopify.com/s/files/1/0533/2089/files/free-stock-photography-pixabay.jpg?v=1512762557",
-    "description": "Sandwidch Creator in Javascript",
-    "technologiesUsed": "HTML, SASS, React, CRUD, Version Control with Github",
+    "description": "A Band Website, I contributed to the design concept and the merchandise page.",
+    "technologiesUsed": "HTML, Javascript, Version Control with Github",
     "available": true,
     "url": "https://github.com/nss-evening-cohort-10/js-part-deux",
-    "githubUrl": "https://github.com/aleshakay/doggie-day-care"
+    "githubUrl": "https://github.com/nss-evening-cohort-10/foundations-group-project-sore-throat"
   },
   "project2": {
     "title": "The Sandwich Maker",
@@ -29,7 +29,7 @@
   "project4": {
     "title": "Shark Attack",
     "screenshot": "https://cdn.shopify.com/s/files/1/0533/2089/files/free-stock-photography-pixabay.jpg?v=1512762557",
-    "description": "Sandwidch Creator in Javascript",
+    "description": "Application to Randomly remove students a tank to a graveyard using in React.js",
     "technologiesUsed": "HTML, SASS, React, CRUD, Version Control with Github",
     "available": true,
     "url": "https://github.com/nss-evening-cohort-10/js-part-deux",

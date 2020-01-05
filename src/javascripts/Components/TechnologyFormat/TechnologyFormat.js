@@ -4,9 +4,9 @@ const createTechnologyCards = (technology) => {
   let domString = '';
   domString += `
     <div class="container-fluid">
-      <div class="card">
+      <div class="card technoCard">
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">${technology.name}</li>
+        <li class="list-group-item techName">${technology.name}</li>
       </ul>
       </div>
     </div>
