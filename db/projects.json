@@ -34,5 +34,23 @@
     "available": true,
     "url": "https://github.com/nss-evening-cohort-10/js-part-deux",
     "githubUrl": "https://github.com/aleshakay/shark-attack"
+  },
+  "project5": {
+    "title": "FreeLancer",
+    "screenshot": "https://cdn.shopify.com/s/files/1/0533/2089/files/free-stock-photography-pixabay.jpg?v=1512762557",
+    "description": "Application use CRUD to track events for a Renaissance fair",
+    "technologiesUsed": "HTML, Javascript, CRUD, Version Control with Github",
+    "available": true,
+    "url": "https://freelancer-redux.firebaseapp.com/",
+    "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-renaissance-fair"
+  },
+  "project6": {
+    "title": "Tennis Roster",
+    "screenshot": "https://cdn.shopify.com/s/files/1/0533/2089/files/free-stock-photography-pixabay.jpg?v=1512762557",
+    "description": "This application is a roster of a Tennis team. It list player and the match in which they play.",
+    "technologiesUsed": "HTML, React, CRUD, Version Control with Github",
+    "available": true,
+    "url": "https://sports-roster-59415.firebaseapp.com",
+    "githubUrl": "https://github.com/aleshakay/sports-roster"
   }
 }
