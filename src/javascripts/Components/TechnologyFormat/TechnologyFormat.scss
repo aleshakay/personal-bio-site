@@ -1,11 +1,49 @@
+// .techName{
+//   background-color: lavenderblush;
+//   font-family: monospace;
+//   font-size: 24px;
+//   border-style: dotted !important;
+//   align-items: flex-start;
+//   outline: dotted;
+//   flex:auto;
+//   padding-top: 4px;
+//   padding-bottom: 6px;
+// }
+
+
+.myCards {
+  padding: 0;
+  display: block;
+  margin: 24px auto;
+  width: 320px;
+}
+
 .techName{
-  background-color: lavenderblush;
+  display: block;
+  height: 90px;
+  width: 320px;
   font-family: monospace;
   font-size: 24px;
-  border-style: dotted !important;
-  align-items: flex-start;
-  outline: dotted;
-  flex:auto;
-  padding-top: 4px;
-  padding-bottom: 6px;
+  background-color: lavenderblush;
+  animation-name: animateIn;
+  animation-duration: 550ms;
+  animation-delay: calc(var(--animation-order) * 100ms);
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+.myCards + .techName {
+  margin-top: 16px;
+}
+
+@keyframes animateIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6) translateY(-8px);
+  }
+  
+  100% {
+    opacity: 1;
+  }
 }
