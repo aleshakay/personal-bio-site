@@ -1,5 +1,5 @@
 .image--down {
-  object-position: 50%  -20%;
+  object-position: 50%  -50%;
 }
 .container{
   background-color: grey;
@@ -9,15 +9,17 @@ img {
   height: 80%;
   min-width: auto;
   float: right;
-  margin-left: 9em;
-  margin-right: 0em;
+  margin-left: 4em;
+  margin-right: 4em;
 }
 
 #quoteContainer{
+  margin-top:2em;
   padding-top: 4px;
   padding-bottom: 4px;
+  
 }
 
 .pictureofMe{
-  object-position: 50%  -20%;
+  object-position: 50%  -40%;
 }
