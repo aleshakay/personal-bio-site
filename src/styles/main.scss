@@ -34,6 +34,8 @@ body{
 }
 #homePage{
   background-color: grey;
+  height: -webkit-fill-available;
+  -webkit-margin-before-collapse: separate;
 }
 
 .emailaddress{
@@ -97,6 +99,10 @@ p{
   background: url('../asset/glitters.jpg');
   align-content: center;
   font-weight: bolder;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
   a{
     color: #734f96 !important;
   }

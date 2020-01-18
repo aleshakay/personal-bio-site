@@ -11,13 +11,12 @@ const homePage = () => {
   quoteData.getQuotes()
     .then((quotes) => {
       let domString = '';
-      domString += `<div class="container">
-      <img class="pictureOfMe" src=${homePagePhoto} /></div>
-      <div id="quoteContainer" class="d-flex flex-wrap">`;
+      domString += `<p class="container">
+      <p><img class="pictureOfMe" src=${homePagePhoto} />`;
       quotes.forEach((quote) => {
         domString += HomeFormat.createQuoteCards(quote);
       });
-      domString += '</div></div>';
+      domString += '</p></div>';
       utilities.printToDom('homePage', domString);
     });
 };

@@ -78,7 +78,6 @@ const NavSelector = () => {
     }
     if (link === 'personalHomePage') {
       myHomeSelectors();
-      homeSection.homePage();
     }
     if (link === 'navToTechnologies') {
       myTechSelectors();
