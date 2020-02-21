@@ -1,35 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
 
-
-// li a:hover {
-//   background-color: #111111;
-// }
-
-// ul {
-//   list-style-type: none;
-//   margin: 0;
-//   padding: 0;
-//   overflow: hidden;
-//   background-color: white;
-// }
-// li a {
-//   display: block;
-//   color: black;
-//   text-align: center;
-//   padding: 16px;
-//   text-decoration: none;
-//   font-size: 24px;
-// }
-
-// li {
-//   float: right;
-//   justify-content: space-around;
-// }
 h1{
   font-size: 4em !important;
 }
 body{
-    // background-color: powderblue;
+    background-color: grey;
     font-family: monospace; 
 }
 #homePage{
@@ -42,9 +17,13 @@ body{
   text-align: center;
   font-family: monospace;
   font-size: 24px;
+  color: white;
+  background-color: #FAD0C9FF;
+  height: 10%;
+  padding-top: 3%;
 }
 
-#bioPages{
+#bioPage{
   text-align: center;
   background-color: grey;
 }
@@ -55,16 +34,14 @@ body{
 }
 
 #projectsPage{
-  background: url(../asset/glitters.jpg);
+  background-color: grey;
 }
 
 p{
-  // display: flex;
   margin: 2%;
   text-align: center;
   font-size: 24px;
   border: 2px;
-  // color: white;
   font-family: monospace;
 }
 
@@ -73,22 +50,23 @@ p{
     width: 150px;
   }
 
-  .card {
-    width: 30%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: black;
-    text-align: center;
-    border: black;
-    border-style: solid;
-    border-width: 2px;
-  }
-  .title{
-    text-align: center;
-    font-size: 36px;
-    font-family: monospace;
-    
-  }
+.card {
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  text-align: center;
+  border: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.title{
+  text-align: center;
+  font-size: 36px;
+  font-family: monospace;
+  
+}
 #navLinks{
   text-align: center;
   height: 5em;
@@ -104,7 +82,7 @@ p{
   background-size: cover;
   text-align: center;
   a{
-    color: #734f96 !important;
+    color: white !important;
   }
 }
 .titleMeSpecial h1{
@@ -113,13 +91,8 @@ p{
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: #FAD0C9FF;
-  color: white !important;
+  color: Grey !important;
 }
-
-  /* #bioPages{
-    display: none;
-  }
- */
 
 .backgroundHeading{
   text-align: center;
@@ -128,13 +101,8 @@ p{
   display: flex;
   font-size: 24px;
   justify-content: space-evenly;   
+  color: white;
 }
 
-.email{
-  display: inline-block;
-  text-align: center;
-  font-family: monospace;
-  font-size: 24px;
-  color: #000;
-}
+
 

@@ -11,7 +11,7 @@ const homePage = () => {
   quoteData.getQuotes()
     .then((quotes) => {
       let domString = '';
-      domString += `<p class="container">
+      domString += `<p class="column">
       <p><img class="pictureOfMe" src=${homePagePhoto} />`;
       quotes.forEach((quote) => {
         domString += HomeFormat.createQuoteCards(quote);

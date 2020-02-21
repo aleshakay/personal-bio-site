@@ -10,13 +10,12 @@ const projectPage = () => {
   projectData.getProjects()
     .then((projects) => {
       let domString = '';
+      domString += '<h1 class="personalBioh1">My Porfolio</h1>';
       domString += '<div id="board-container" class="d-flex flex-wrap">';
-      domString += '<h1 class="personalBioh1">Projects</h1>';
-      domString += '<div class="row">';
       projects.forEach((project) => {
         domString += Projectformat.createProjectCards(project);
       });
-      domString += '</div></div>';
+      domString += '</div>';
       utilities.printToDom('projectsPage', domString);
     });
 };

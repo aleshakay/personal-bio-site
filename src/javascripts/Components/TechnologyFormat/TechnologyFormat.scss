@@ -30,7 +30,8 @@
   animation-delay: calc(var(--animation-order) * 100ms);
   animation-fill-mode: both;
   animation-timing-function: ease-in;
-  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  border-radius: 5px 90px 5px !important;
+
 }
 
 .myCards + .techName {
