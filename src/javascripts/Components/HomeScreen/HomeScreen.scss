@@ -9,8 +9,8 @@ img {
   height: 80%;
   min-width: auto;
   float: right;
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 #quoteContainer{
@@ -22,4 +22,5 @@ img {
 
 .pictureofMe{
   object-position: 50%  -40%;
+  border-radius: 5px 90px 5px;
 }
