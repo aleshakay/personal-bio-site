@@ -1,18 +1,4 @@
-// .techName{
-//   background-color: lavenderblush;
-//   font-family: monospace;
-//   font-size: 24px;
-//   border-style: dotted !important;
-//   align-items: flex-start;
-//   outline: dotted;
-//   flex:auto;
-//   padding-top: 4px;
-//   padding-bottom: 6px;
-// }
-
-
 .myCards {
-  padding: 0;
   display: block;
   margin: 24px auto;
   width: 320px;
@@ -31,7 +17,8 @@
   animation-fill-mode: both;
   animation-timing-function: ease-in;
   border-radius: 5px 90px 5px !important;
-
+  color: grey;
+  margin-top: 6px;
 }
 
 .myCards + .techName {
