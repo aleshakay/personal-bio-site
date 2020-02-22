@@ -17,10 +17,14 @@ body{
   text-align: center;
   font-family: monospace;
   font-size: 24px;
-  color: white;
   background-color: #FAD0C9FF;
   height: 10%;
   padding-top: 3%;
+  a{
+    font-size: 28px;
+    color: white !important;
+
+  }
 }
 
 #bioPage{
@@ -101,7 +105,7 @@ p{
   display: flex;
   font-size: 24px;
   justify-content: space-evenly;   
-  color: white;
+  color: white !important;
 }
 
 
